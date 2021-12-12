@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: content-box;
@@ -161,7 +161,8 @@
     background-image: url(/svg/heart_gray.svg);
 }
 
-.catalog_item:nth-child(2)::after, .catalog_item:nth-child(6)::after {
+.catalog_item:nth-child(2)::after,
+.catalog_item:nth-child(6)::after {
     content: '';
     position: absolute;
     top: 34px;
@@ -295,7 +296,7 @@
     border-radius: 10px;
 }
 
-/* input[name="email"] {
+input[name="email"] {
 
 } 
 
@@ -428,4 +429,4 @@
     .footer_emailsubscribe {
         margin: 0;
     }
-}
+} */
